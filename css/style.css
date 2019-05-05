@@ -1,0 +1,10 @@
+html body .login{
+  background-color:#262932;
+  height:100vh !important;
+}
+
+html body .customer{
+  background-color: #2E3740
+    color: #435160
+    font-family: 'Open Sans', sans-serif
+}
