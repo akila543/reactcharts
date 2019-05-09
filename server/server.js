@@ -29,7 +29,18 @@ app.get('/getbikedata',function(req,res) {
     })
   })
 })
+app.get('/getbikedataforchart',function(req,res) {
+  var name = req.query.name;
+  MongoClient.connect(url, function(err,client) {
+    if (err) throw err;
 
+    const db = client.db('bikedata')
+    db.collection('bike').find({name:name}).toArray(function(err,result) {
+      client.close();
+      res.json(result);
+    })
+  })
+})
 app.listen((process.env.PORT || 8585), function() {
   console.log("server listening to 8585");
 })

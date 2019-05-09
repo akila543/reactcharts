@@ -6,134 +6,95 @@ var data=[
   "name":"RS200",
   "company":"BAJAJ",
     "data":[
-      {
-        "date":"05-10-2017",
+      {"date":"May 2010",
         "kms_sum":14,
         "service_activities":{
           "major":"firstservice",
           "minor":null,
           "tyre_in_percentage":99,
-          "parts_changed":["oil filter"]
+          "parts_changed":["oilfilter"]
         }
       },
-      {
-        "date":"10-09-2017",
+      {"date":"Sep 2010",
         "kms_sum":47,
         "service_activities":{
-          "major":null,
-          "minor":null,
-          "tyre_in_percentage":null,
+         "major":null,
+         "minor":null,
+         "tyre_in_percentage":null,
           "parts_changed":[]
-        }
+          }
       },
-      {
-        "date":"10-10-2017",
+      {"date":"Oct 2010",
         "kms_sum":56,
         "service_activities":{
-          "major":null,
-          "minor":null,
-          "tyre_in_percentage":null,
+         "major":null,
+         "minor":null,
+         "tyre_in_percentage":null,
           "parts_changed":[]
-        }
+          }
       },
-      {"date":"10-12-2017",
+      {"date":"Dec 2010",
         "kms_sum":58,
         "service_activities":{
-          "major":null,
-          "minor":null,
-          "tyre_in_percentage":null,
+         "major":null,
+         "minor":null,
+         "tyre_in_percentage":null,
           "parts_changed":[]
-        }
+          }
       },
-      {"date":"11-01-2017",
+      {"date":"Jan 2011",
         "kms_sum":60,
         "service_activities":{
-          "major":null,
-          "minor":null,
-          "tyre_in_percentage":null,
+         "major":null,
+         "minor":null,
+         "tyre_in_percentage":null,
           "parts_changed":[]
-        }
+          }
       },
-      {"date":"11-03-2017",
+      {"date":"Mar 2011",
         "kms_sum":97,
         "service_activities":{
-          "major":"second service",
-          "minor":null,
-          "tyre_in_percentage":95,
+         "major":"second service",
+         "minor":null,
+         "tyre_in_percentage":95,
           "parts_changed":["air filter","oil filter"]
-        }
+          }
       },
-      {"date":"11-04-2017",
+      {"date":"Apr 2011",
         "kms_sum":112,
         "service_activities":{
-          "major":null,
-          "minor":null,
-          "tyre_in_percentage":null,
+         "major":null,
+         "minor":null,
+         "tyre_in_percentage":null,
           "parts_changed":[]
-        }
+          }
       },
-      {"date":"11-05-2017",
+      {"date":"May 2011",
         "kms_sum":132,
         "service_activities":{
-          "major":null,
-          "minor":null,
-          "tyre_in_percentage":null,
+         "major":null,
+         "minor":null,
+         "tyre_in_percentage":null,
           "parts_changed":[]
-        }
+          }
       },
-      {"date":"11-09-2017",
-        "kms_sum":164,
+      {"date":"Sep 2011",
+        "kms_sum":162,
         "service_activities":{
-          "major":null,
-          "minor":null,
-          "tyre_in_percentage":null,
+         "major":null,
+         "minor":null,
+         "tyre_in_percentage":null,
           "parts_changed":[]
-        }
-      }]
+          }
+      }
+
+
+  ]
 },
 {
 "name":"Yamaha",
-"company":"YAMAHA",
+"company":"Yamaha",
   "data":[
-    {
-      "date":"05-10-2017",
-      "kms_sum":14,
-      "service_activities":{
-        "major":"firstservice",
-        "minor":null,
-        "tyre_in_percentage":99,
-        "parts_changed":["oil filter"]
-      }
-    },
-    {
-      "date":"10-09-2017",
-      "kms_sum":47,
-      "service_activities":{
-        "major":null,
-        "minor":null,
-        "tyre_in_percentage":null,
-        "parts_changed":[]
-      }
-    },
-    {
-      "date":"10-10-2017",
-      "kms_sum":56,
-      "service_activities":{
-        "major":null,
-        "minor":null,
-        "tyre_in_percentage":null,
-        "parts_changed":[]
-      }
-    },
-    {"date":"10-12-2017",
-      "kms_sum":58,
-      "service_activities":{
-        "major":null,
-        "minor":null,
-        "tyre_in_percentage":null,
-        "parts_changed":[]
-      }
-    },
     {"date":"11-01-2017",
       "kms_sum":60,
       "service_activities":{
@@ -146,11 +107,11 @@ var data=[
     {"date":"11-03-2017",
       "kms_sum":97,
       "service_activities":{
-        "major":"second service",
-        "minor":null,
-        "tyre_in_percentage":95,
+       "major":"second service",
+       "minor":null,
+       "tyre_in_percentage":95,
         "parts_changed":["air filter","oil filter"]
-      }
+        }
     },
     {"date":"11-04-2017",
       "kms_sum":112,
@@ -170,6 +131,16 @@ var data=[
         "parts_changed":[]
       }
     },
+    {
+      "date":"10-09-2017",
+      "kms_sum":47,
+      "service_activities":{
+        "major":null,
+        "minor":null,
+        "tyre_in_percentage":null,
+        "parts_changed":[]
+      }
+    },
     {"date":"11-09-2017",
       "kms_sum":164,
       "service_activities":{
@@ -178,8 +149,41 @@ var data=[
         "tyre_in_percentage":null,
         "parts_changed":[]
       }
-    }]
+    },
+    {
+      "date":"05-10-2017",
+      "kms_sum":14,
+      "service_activities":{
+        "major":"firstservice",
+        "minor":null,
+        "tyre_in_percentage":99,
+        "parts_changed":["oil filter"]
+      }
+    },
+
+    {
+      "date":"10-10-2017",
+      "kms_sum":56,
+      "service_activities":{
+        "major":null,
+        "minor":null,
+        "tyre_in_percentage":null,
+        "parts_changed":[]
+      }
+    },
+    {"date":"10-11-2017",
+      "kms_sum":58,
+      "service_activities":{
+        "major":null,
+        "minor":null,
+        "tyre_in_percentage":null,
+        "parts_changed":[]
+      }
+    },
+]
 }
+
+
 ];
 
 MongoClient.connect(url, function(err,client) {
