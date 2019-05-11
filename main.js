@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter, Route} from 'react-router-dom';
-import Home from './client/views/Home.jsx';
-import CustomerInformation from './client/views/customerInformation.jsx';
+import Home1 from './client/views/Home1.jsx';
 
 
 ReactDOM.render(
   <HashRouter>
     <div>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/customerInformation' component={CustomerInformation} />
-
+      <Route exact path='/' component={Home1} />
     </div>
   </HashRouter>,
   document.getElementById('app'));
